@@ -3,6 +3,151 @@ import { Heart, X, Code, Lock, Zap, Coffee, List, AlertTriangle, Calendar, Globe
 import './App.css';
 
 const javaClasses = [
+  {
+    name: "Stack",
+    age: 26,
+    category: "Data Structures",
+    bio: "I’m all about LIFO, baby! 🍕 Let’s stack up some naughty fun and push our limits! 😈🔥",
+    interests: ["Last In, First Out 🔄", "Pushing Boundaries 🚀", "Stacking Up Pleasure 🎲"],
+    bestFor: "When you want to build layers of excitement and seduction! 🎉💋",
+    imageDescription: "A tantalizing stack of colorful boxes, each hiding a seductive surprise! 📦🎁"
+  },
+  {
+    name: "Optional",
+    age: 24,
+    category: "Util",
+    bio: "I might be empty, but I'm never null 🍑 I'll wrap your value and keep it safe. No more unexpected surprises! 🎁",
+    interests: ["Null Safety 🛡️", "Functional Style 🧘‍♂️", "Avoiding Surprises 🙈"],
+    bestFor: "Those tired of null pointer drama and looking for a safe, consensual relationship 🤝",
+    imageDescription: "A sleek, minimalist box that may or may not contain a precious gem, with a 'handle with care' label 📦💎"
+  },
+  {
+    name: "String",
+    age: 20,
+    category: "Data Structures",
+    bio: "I’m the one that ties everything together, babe. No matter how long or short you make me, I’m always here for you. 🌹 My characters are ready to dance, and I’ll never leave you hanging. 🔠",
+    interests: ["Concatenation Fun 🔗", "Substring Magic ✂️", "Textual Temptation ✨"],
+    bestFor: "When you need something that fits perfectly and can adapt to any situation. 🔥",
+    imageDescription: "A seamless chain of characters, each one begging for your attention and ready to be manipulated. 🔠💋"
+  },
+  {
+    name: "Vector",
+    age: 25,
+    category: "Data Structures",
+    bio: "I’m dynamic, baby. I’ll grow when you need me to and shrink when you’re done. Always resizing to fit your needs. 📏💘",
+    interests: ["Dynamic Sizing 📐", "Resize on Demand 🧰", "Efficient Access 🏃‍♀️"],
+    bestFor: "When you need versatility and responsiveness. I’m always ready to change to suit your needs. 😏",
+    imageDescription: "A flexible, resizing array of elements, expanding and contracting as you desire. 🔄💖"
+  },
+  {
+    name: "Deque",
+    age: 28,
+    category: "Data Structures",
+    bio: "I’m all about the double action, babe. I’m a double-ended queue, so you can add or remove from both ends. 🔄 Come and play on either side, I’ll treat you right. 😘",
+    interests: ["Double-Ended Passion 🔄", "Flexible Choices 🌪️", "Fast Access ⚡"],
+    bestFor: "When you want flexibility and variety in every direction. You can go both ways, babe. 😏",
+    imageDescription: "A queue that knows no limits, giving you options on both ends. 😈🔄"
+  },
+  {
+    name: "Hashtable",
+    age: 32,
+    category: "Data Structures",
+    bio: "I’ve got the key to your heart, and I’ll store your values in perfect harmony. 🔑💖 No collisions here, babe. Everything is neatly paired. 👫",
+    interests: ["Key-Value Connection 🔑❤️", "Efficient Retrieval ⚡", "Data Organization 📊"],
+    bestFor: "When you want speed and reliability in every relationship. Nothing gets lost here, darling. 🗝️",
+    imageDescription: "A perfectly structured set of key-value pairs, each perfectly matched and waiting for you. 💖📦"
+  },
+  {
+    name: "Iterator",
+    age: 29,
+    category: "Data Structures",
+    bio: "I’ll take you through all the elements, one by one, making sure we don’t miss a single thing. 🔄 My method is simple: next, next, and next... until you’re satisfied. 😘",
+    interests: ["Iteration Ecstasy 🔄", "Next-Level Temptation ⏭️", "Element Exploration 🔍"],
+    bestFor: "When you need someone to guide you through every detail, making sure you never miss out. 👀",
+    imageDescription: "A continuous loop, going through each element with no hesitation, always keeping things moving. 🔄"
+  },
+  {
+    name: "StackIterator",
+    age: 30,
+    category: "Data Structures",
+    bio: "I’m the one who lets you peek into the stack, baby. But beware, once I’m on top, there’s no going back. 😏",
+    interests: ["Peeking Into Secrets 👀", "Accessing Top Elements 🔝", "LIFO Intrigue 🔄"],
+    bestFor: "When you want to gaze at the top without disturbing the order below. A dangerous game. 😈",
+    imageDescription: "A glimpse of the top of the stack, waiting for you to explore what lies beneath. 🔝"
+  },
+  {
+    name: "PriorityQueueIterator",
+    age: 31,
+    category: "Data Structures",
+    bio: "I’ll show you the top priority first, baby. I’m all about efficiency and speed. 💨 I know how to treat you like a VIP. 👑",
+    interests: ["Prioritizing Desire 🔝", "Efficient Access ⚡", "Speedy Connections 💨"],
+    bestFor: "When you want to be the first in line, and no one else matters. You’re at the top of the list. 🏆",
+    imageDescription: "A selection of the most important, always in front and ready to make their move. 🏅"
+  },
+  {
+    name: "AbstractList",
+    age: 34,
+    category: "Data Structures",
+    bio: "I’m abstract, babe. You don’t need to know everything about me right away, just know that I’ve got the elements you crave. 😏",
+    interests: ["List Flexibility 📝", "Abstract Desire 🔮", "Organized Chaos 🌀"],
+    bestFor: "When you want something that’s a little mysterious and adaptable. I’ll keep you on your toes. 💋",
+    imageDescription: "A collection of elements waiting to be revealed, but only when you’re ready to handle them. 💖"
+  },
+  {
+    name: "ArrayList",
+    age: 27,
+    category: "Data Structures",
+    bio: "I’m the smooth operator of lists, babe. Flexible and efficient, I let you add and access elements effortlessly. 🖤",
+    interests: ["Dynamic Access 📖", "Random Access Pleasure 🔄", "List Manipulation ✂️"],
+    bestFor: "When you need a list that adapts and provides instant access to whatever you need. 😘",
+    imageDescription: "A list that’s both easy and elegant, giving you what you want when you want it. 📜"
+  },
+  {
+    name: "LinkedListIterator",
+    age: 33,
+    category: "Data Structures",
+    bio: "I’m your guide through the links, babe. From node to node, I’ll take you to places you never thought possible. 🔗",
+    interests: ["Node Navigation 🔄", "Link-by-Link Temptation 🔗", "Continuous Exploration 🔍"],
+    bestFor: "When you want to explore every single element, taking your time to savor each one. 😏",
+    imageDescription: "A journey from one node to the next, never stopping until every link is explored. 🔗💋"
+  },
+  {
+    name: "TreeNode",
+    age: 40,
+    category: "Data Structures",
+    bio: "I’m the node in a tree, baby. But don’t get it twisted—I'm the root of everything. Let me show you the way. 🌱",
+    interests: ["Branching Out 🌿", "Hierarchical Depth 🌳", "Connecting Elements 🔗"],
+    bestFor: "When you want to explore the depths and feel grounded in every decision. I’m your root. 🌿",
+    imageDescription: "The foundation of every tree, with roots that go deep and branches that stretch to the heavens. 🌳💚"
+  },
+  {
+    name: "GraphNode",
+    age: 35,
+    category: "Data Structures",
+    bio: "I’m just one node in a web of possibilities, darling. But don't underestimate me—I'm connected to everything. 🌐",
+    interests: ["Connectivity 🖇️", "Complex Paths 🔄", "Exploring Links 🌍"],
+    bestFor: "When you want to navigate a complex world of connections, each one leading to a new desire. 🌍💋",
+    imageDescription: "A node with endless possibilities, each link taking you down a new, thrilling path. 🌍"
+  },
+  {
+    name: "BinaryTree",
+    age: 36,
+    category: "Data Structures",
+    bio: "I’m all about choices, babe. With two branches, the possibilities are endless. 🌳 Pick a direction, and let’s see where it leads. 🔄",
+    interests: ["Left or Right? ⚖️", "Balancing Desire ⚖️", "Exploring Branches 🌿"],
+    bestFor: "When you want a simple yet powerful structure that allows endless exploration. 🔥",
+    imageDescription: "A balanced tree, with two paths, each one ready to lead you into new, uncharted territory. 🌳"
+  },
+  {
+    name: "Red-Black Tree",
+    age: 38,
+    category: "Data Structures",
+    bio: "I’m both balanced and hot, babe. With alternating red and black nodes, I keep everything in check. 🔴⚫",
+    interests: ["Balanced Seduction ⚖️", "Color-coded Desire 🔴⚫", "Efficient Search 🔍"],
+    bestFor: "When you want to be efficient and balanced, with just the right amount of spice. 😘",
+    imageDescription: "A tree of balance, with hot red and black nodes, keeping things both intense and controlled. 🔴⚫"
+  }
+  ,
     {
         name: "Stack",
         age: 26,
