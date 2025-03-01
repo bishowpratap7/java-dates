@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/%3Cjava-dates%3E/static/css/main.f855e6bc.css",
-    "main.js": "/%3Cjava-dates%3E/static/js/main.f7971a0a.js",
-    "static/js/453.cc45f27a.chunk.js": "/%3Cjava-dates%3E/static/js/453.cc45f27a.chunk.js",
-    "static/media/logo.svg": "/%3Cjava-dates%3E/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
-    "index.html": "/%3Cjava-dates%3E/index.html",
-    "main.f855e6bc.css.map": "/%3Cjava-dates%3E/static/css/main.f855e6bc.css.map",
-    "main.f7971a0a.js.map": "/%3Cjava-dates%3E/static/js/main.f7971a0a.js.map",
-    "453.cc45f27a.chunk.js.map": "/%3Cjava-dates%3E/static/js/453.cc45f27a.chunk.js.map"
+    "main.css": "/java-dates/static/css/main.f855e6bc.css",
+    "main.js": "/java-dates/static/js/main.41347a27.js",
+    "static/js/453.cc45f27a.chunk.js": "/java-dates/static/js/453.cc45f27a.chunk.js",
+    "static/media/logo.svg": "/java-dates/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/java-dates/index.html",
+    "main.f855e6bc.css.map": "/java-dates/static/css/main.f855e6bc.css.map",
+    "main.41347a27.js.map": "/java-dates/static/js/main.41347a27.js.map",
+    "453.cc45f27a.chunk.js.map": "/java-dates/static/js/453.cc45f27a.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.f855e6bc.css",
-    "static/js/main.f7971a0a.js"
+    "static/js/main.41347a27.js"
   ]
 }
